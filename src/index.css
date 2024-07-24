@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-display: block;
+  font-family: 'Bricolage Grotesque';
+  src: url('./fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: block;
+  font-family: 'Nohemi';
+  src: url('./fonts/Nohemi/Nohemi-VF-BF6438cc58ad63d.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: block;
+  font-family: "Inter";
+  src: url('./fonts/Inter/Inter-VariableFont_slnt\,wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

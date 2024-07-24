@@ -1,0 +1,304 @@
+.Heading{
+    background: linear-gradient(90deg,#FFFFFF 0%, #999999 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+    max-width: 942px;
+    font-family: 'Nohemi';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.SubHeading{
+    font-family: 'Nohemi';
+    line-height: 19.2px;
+    letter-spacing: 2%;
+    text-align: center;
+    color: #D2D2D2;
+    max-width: 793px;
+    margin-bottom: 50px;
+}
+
+.MiddleSection{
+    background-color: #2A2A2B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.SubSection{
+    display: flex;
+    column-gap: 30px;
+}
+
+.SubSectionItem{
+    border-radius: 24px;
+    padding: 30px;
+    width: 392px;
+    position: relative;
+}
+
+.ItemHeading{
+    font-family: 'Nohemi';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32.14px;
+    margin-bottom: 20px;
+}
+
+.ItemDetails{
+    font-family: 'Nohemi';
+    line-height: 19.2px;
+    letter-spacing: 2%;
+}
+
+.FirstItem{
+    background-color: #6B61FF;
+    color:#EDF0FF;
+}
+
+.SecondItem{
+    background-color: #FE9BF3;
+    color: #1E1E1E;
+}
+
+.ThirdItem{
+    background-color: #ADFFE4;
+    color: #1E1E1E;
+}
+
+.ComingSoon{
+    width: 119px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    padding: 4px 8px;
+    gap: 10px;
+    transform: rotate(-12.8deg);
+    font-family: 'Nohemi';
+    font-weight: 500;
+    line-height: 19.2px;
+    letter-spacing: 2%;
+    justify-content: center;
+}
+
+.CommingSoonAlignment{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.DeployHeading{
+    font-family: 'Nohemi';
+    font-weight: 600;
+    line-height: 16.07px;
+    letter-spacing: 0.15px;
+    color: #0C091B;
+}
+
+.Deploy{
+    border-radius: 100px;
+    width: 200px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0px 10px #9089f0;
+    z-index: 3000;
+}
+
+.GlobeSection{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.BorderAround{
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    top: 150px;
+    left: 50%;
+    border: 3px dashed #ADFFE4;
+    border-radius: 450px 450px 0 0;
+    transform: translate(-50%, -50%);
+    border-bottom: none;
+}
+
+.Ellipse1{
+    position: absolute;
+    bottom: -20px;
+    left: -50px;
+}
+
+.Ellipse2{
+    position: absolute;
+    bottom: -20px;
+    right: -40px
+}
+
+.Ellipse3{
+    position: absolute;
+    bottom: 200px;
+    left: 10px;
+}
+
+.Ellipse4{
+    position: absolute;
+    bottom: 300px;
+    left: 110px;
+}
+
+.Ellipse5{
+    position: absolute;
+    bottom: 340px;
+    left: 220px;
+}
+
+.Ellipse6{
+    position: absolute;
+    bottom: 395px;
+    right: 320px;
+}
+
+.Ellipse7{
+    position: absolute;
+    bottom: 345px;
+    right: 200px;
+}
+
+.Ellipse8{
+    position: absolute;
+    bottom: 250px;
+    right: 50px;
+}
+
+.EllipseCyan{
+    position: absolute;
+    bottom: 150px;
+    left: 10px;
+}
+
+.Outside1{
+    position: absolute;
+    top: -70px;
+    left: 120px;
+
+}
+
+.Outside2{
+    position: absolute;
+    top: -30px;
+    right: 100px;
+
+}
+
+.Outside3{
+    position: absolute;
+    right: -50px;
+    bottom: 200px;
+}
+
+.Ellipse10{
+    position: absolute;
+    bottom: 80px;
+    right: -3px;
+}
+
+.CircularContainer{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px dashed #ADFFE4;
+    position: absolute;
+    bottom: 100px;
+    right: -110px;
+}
+
+.Ellipse11{
+    position: absolute;
+    bottom: 100px;
+    right: -40px;
+
+}
+
+.Ellipse12{
+    position: absolute;
+    bottom: 170px;
+    right: -120px;
+
+}
+
+.Ellipse13{
+    position: absolute;
+    bottom: 80px;
+    right: -120px;
+}
+
+.EllipseConatiner{
+    position: absolute;
+    left: -110px;
+    bottom: 0;
+    width: 100px;
+    height: 50px;
+    border: 2px dashed #ADFFE4;
+    border-radius: 50%;
+    transform: rotate(-10deg);
+}
+
+.Outside4{
+    position: absolute;
+    bottom: -5px;
+    left: -60px;
+
+}
+
+.Outside5{
+    position: absolute;
+    bottom: 45px;
+    left: -80px;
+}
+
+.Ellipse14{
+    position: absolute;
+    bottom: -30px;
+    left: -150px;
+}
+
+.RoundIcon{
+    width: 5px;
+    height: 4px;
+    margin: 10px;
+    display: block;
+}
+
+.DesignPattern{
+    position: absolute;
+    bottom: 0;
+}
+
+.CircularDesignContainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    left: 0px;
+    right: 0px;
+}
+
+.CircularDesignRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
